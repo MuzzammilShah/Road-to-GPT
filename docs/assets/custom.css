@@ -1,0 +1,32 @@
+/* Light theme: Header and navbar are white */
+body[data-md-color-scheme="default"] .md-header,
+body[data-md-color-scheme="default"] .md-tabs {
+  background-color: white;
+  color: black;
+}
+body[data-md-color-scheme="default"] .md-header a,
+body[data-md-color-scheme="default"] .md-tabs a {
+  color: black; /* Text and links */
+}
+body[data-md-color-scheme="default"] .md-tabs a.md-tabs__link--active {
+  border-bottom: 2px solid black; /* Active tab indicator */
+}
+
+/* Dark theme: Header and navbar are black */
+body[data-md-color-scheme="slate"] .md-header,
+body[data-md-color-scheme="slate"] .md-tabs {
+  background-color: black;
+  color: white;
+}
+body[data-md-color-scheme="slate"] .md-header a,
+body[data-md-color-scheme="slate"] .md-tabs a {
+  color: white; /* Text and links */
+}
+body[data-md-color-scheme="slate"] .md-tabs a.md-tabs__link--active {
+  border-bottom: 2px solid white; /* Active tab indicator */
+}
+
+/* Shadow effect for header and navbar */
+.md-tabs {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Consistent shadow */
+}

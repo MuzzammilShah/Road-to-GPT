@@ -1,0 +1,58 @@
+site_name: "Road to GPT"
+
+theme:
+  name: material
+  icon:
+    logo: octicons/ai-model-16
+    admonition:
+      note: material/alert-circle
+      warning: material/alert
+  favicon: assets/favicon.ico  # Optional favicon
+  font:
+    text: Poppins
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: white
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: black
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Main: index.md
+  - Backpropagation:
+    - Micrograd/index.md
+  - Language Model-1:
+    - Makemore-part1/index.md
+  - Language Model-2:
+    - Makemore-part2/index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - assets/custom.css
+
+plugins:
+  - search
