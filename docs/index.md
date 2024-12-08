@@ -5,6 +5,8 @@ hide:
 
 # Hello, Welcome to my **Road to GPT** Documentation site!
 
+&nbsp;
+
 ## About Me
 I am Muhammed Muzzammil Shah, currently working as a Junior Software Engineer at a startup. My primary focus is on implementing Artificial Intelligence and Machine Learning solutions.
 
@@ -44,14 +46,16 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 
 &nbsp;
 
-## Final Thoughts
+## Reflections and Usage Guidelines
 
 !!! note 
-    - This site is a knowledge base to which I can comeback to anytime I need to revise/understand/demo/explain anything.
+    - This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.
 
-    - You are free to refer this site during your leaning journey as well!
+    - Feel free to use this site as a reference during your own learning journey!
 
-    - If you've found this helpful or if there are any corrections to be made, feel free to reach out!
+    - If you find it helpful or notice any corrections that need to be made, don't hesitate to reach out.
 
 !!! warning
-    Please don't directly copy the contents from this site and use it for any commercial purpose. Although the main lectures for this is Open Source and is freely available on the internet (Thanks to Andrej Karpthy), it just won't be fair and ethical to do so.
+    Please refrain from directly copying the contents of this site for any commercial purposes. Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.
+
+&nbsp;

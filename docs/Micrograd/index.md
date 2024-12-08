@@ -3,6 +3,6 @@ hide:
   - navigation
 ---
 
-# **NEURAL NETWORKS AND BACKPROPAGATION**
+# **BACKPROPAGATION**
 
 # Coming Soon!
