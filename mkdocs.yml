@@ -7,7 +7,7 @@ theme:
     admonition:
       note: material/alert-circle
       warning: material/alert
-  favicon: assets/favicon.ico  # Optional favicon
+  favicon: assets/images/favicon.png  # Optional favicon
   font:
     text: Poppins
 
@@ -17,16 +17,20 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
       primary: white
+      accent: indigo
     - scheme: slate
       toggle:
         icon: material/weather-night
         name: Switch to light mode
       primary: black
+      accent: indigo
 
   features:
     - navigation.tabs
     - navigation.top
+    - navigation.path
     - navigation.sections
+    - navigation.footer
     - search.highlight
     - search.suggest
 
@@ -54,5 +58,17 @@ markdown_extensions:
 extra_css:
   - assets/custom.css
 
+extra:
+  social:
+    - icon: material/web
+      link: https://muhammedshah.com
+    - icon: simple/linkedin
+      link: https://linkedin.com/muhammedshah
+    - icon: simple/github
+      link: https://github.com/muzzammilshah
+  # generator: false
+
 plugins:
   - search
+
+copyright: Copyright &copy; 2024 Muhammed Muzzammil Shah

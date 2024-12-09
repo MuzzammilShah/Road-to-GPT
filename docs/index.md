@@ -10,7 +10,7 @@ hide:
 ## About Me
 I am Muhammed Muzzammil Shah, currently working as a Junior Software Engineer at a startup. My primary focus is on implementing Artificial Intelligence and Machine Learning solutions.
 
-If you would like to learn more about me, please feel free to visit my **[official website](https://muhammedshah.com)**!
+If you would like to learn more about me, please feel free to visit my [official website](https://muhammedshah.com)!
 
 &nbsp;
 
