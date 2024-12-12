@@ -41,7 +41,16 @@ nav:
   - Language Model-1:
     - Makemore-part1/index.md
   - Language Model-2:
-    - Makemore-part2/index.md
+    - Makemore Part 2: Makemore-part2/index.md
+    - Set A:
+      - Lecture Notes: Makemore-part2/A-main-makemore-part2.md
+      - Jupyter Notebook: Makemore-part2/A-main-notebook.ipynb
+    - Set B:
+      - Lecture Notes: Makemore-part2/B-main-makemore-part2.md
+      - Jupyter Notebook: Makemore-part2/B-main-notebook.ipynb
+    - Set C:
+      - Lecture Notes: Makemore-part2/C-main-makemore-part2.md
+      - Jupyter Notebook: Makemore-part2/C-main-notebook.ipynb
 
 markdown_extensions:
   - toc:
@@ -70,5 +79,8 @@ extra:
 
 plugins:
   - search
+  - mkdocs-jupyter:
+      execute: false
+      ignore_h1_titles: true
 
 copyright: Copyright &copy; 2024 Muhammed Muzzammil Shah
