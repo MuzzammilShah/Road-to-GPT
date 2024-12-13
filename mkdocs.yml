@@ -39,7 +39,7 @@ nav:
   - Backpropagation:
     - Micrograd: Micrograd/index.md
     - Lecture Notes:
-      - Master Note: Micrograd/notes/A-main-video-lecture-notes.md
+      - Master Notes: Micrograd/notes/A-main-video-lecture-notes.md
       - Micrograd Functionality: Micrograd/notes/micrograd-functionality.md
       - Value Object Creation: Micrograd/notes/value-object-creation.md
       - Crux Node Backpropagation: Micrograd/notes/crux-node-backpropagation.md
