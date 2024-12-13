@@ -141,3 +141,5 @@ And we saw that:
 - Finally, we also saw that we can evaluate the quality of this model. And the quality of this model is summarized in a single number, which is the negative log likelihood (nll)
 
 - So, lower the nll number is, the better the model is, because it is giving high probabilities to the actual next characters in all the bigrams in our training set.
+
+&nbsp;
