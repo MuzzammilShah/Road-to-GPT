@@ -37,7 +37,36 @@ theme:
 nav:
   - Main: index.md
   - Backpropagation:
-    - Micrograd/index.md
+    - Micrograd: Micrograd/index.md
+    - Lecture Notes:
+      - Master Note: Micrograd/notes/A-main-video-lecture-notes.md
+      - Micrograd Functionality: Micrograd/notes/micrograd-functionality.md
+      - Value Object Creation: Micrograd/notes/value-object-creation.md
+      - Crux Node Backpropagation: Micrograd/notes/crux-node-backpropagation.md
+      - Neurons Explaination: Micrograd/notes/neurons-explaination.md
+      - Expanding tanh and adding more operations: Micrograd/notes/expanding-tanh-and-adding-more-operations.md
+      - PyTorch Comparison: Micrograd/notes/pytorch-comparison.md
+      - Multi-Layer Perceptron: Micrograd/notes/multi-layer-perceptron.md
+    - Notebooks:
+      - Derivative Simple Function: Micrograd/notebooks/1-derivative-simple-function.ipynb
+      - Derivative Function with Multiple Inputs: Micrograd/notebooks/2-derivative-function-with-multiple-inputs.ipynb
+      - Graph Visualisation: Micrograd/notebooks/3_1-graph-visualisation.ipynb
+      - Value Object: Micrograd/notebooks/3-value-object.ipynb
+      - Manual Backpropagation-0: Micrograd/notebooks/4_0_manual_backpropagation_simpleExpression.ipynb
+      - Manual Backpropagation-1: Micrograd/notebooks/4_1_manual_backpropagation_simpleExpression.ipynb
+      - Manual Backpropagation-2: Micrograd/notebooks/4_2_manual_backpropagation_simpleExpression.ipynb
+      - Optimization Single Step Preview: Micrograd/notebooks/5_optimization_single_step_preview.ipynb
+      - Backpropagation Neuron: Micrograd/notebooks/6_0_backpropagation_neuron.ipynb
+      - Backpropagation Neuron - Manual Calculation: Micrograd/notebooks/6_1_backpropagation_neuron_manual_calculation.ipynb
+      - Backward Function - Each operation: Micrograd/notebooks/7_0_backward_func_each_operation.ipynb
+      - Backward Function - Entire Graph: Micrograd/notebooks/7_1_backward_func_entire_graph.ipynb
+      - Handing one node used multiple times: Micrograd/notebooks/8_handling_onenode_used_multiple_times.ipynb
+      - Expanding tanh into more operations: Micrograd/notebooks/9_expanding_tanh_into_more_operations.ipynb
+      - Implementing in PyTorch: Micrograd/notebooks/x10_implementing_in_pytorch.ipynb
+      - Creating a MLP: Micrograd/notebooks/x11_creating_a_multi_layer_perceptron.ipynb
+      - Creating a Loss function: Micrograd/notebooks/x12_creating_a_loss_function.ipynb
+      - Collecting all parameters in Neural Net: Micrograd/notebooks/x13_collecting_all_parameters_in_NN.ipynb
+      - Manual Gradient Descent Optimization: Micrograd/notebooks/x14_manual_gradient_descent_optimization.ipynb
   - Language Model-1:
     - Makemore Part 1: Makemore-part1/index.md
     - Set A:
