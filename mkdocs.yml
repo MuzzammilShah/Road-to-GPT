@@ -7,7 +7,7 @@ theme:
     admonition:
       note: material/alert-circle
       warning: material/alert
-  favicon: assets/images/favicon.png  # Optional favicon
+  favicon: assets/images/favicon.png
   font:
     text: Poppins
 
@@ -39,7 +39,16 @@ nav:
   - Backpropagation:
     - Micrograd/index.md
   - Language Model-1:
-    - Makemore-part1/index.md
+    - Makemore Part 1: Makemore-part1/index.md
+    - Set A:
+      - Lecture Notes: Makemore-part1/A-main-makemore-part1.md
+      - Jupyter Notebook: Makemore-part1/A-Main-Notebook.ipynb
+    - Set B:
+      - Lecture Notes: Makemore-part1/B-main-makemore-part1.md
+      - Jupyter Notebook: Makemore-part1/B-Main-Notebook.ipynb
+    - Set C:
+      - Lecture Notes: Makemore-part1/C-main-makemore-part1.md
+      - Jupyter Notebook: Makemore-part1/C-Main-Notebook.ipynb
   - Language Model-2:
     - Makemore Part 2: Makemore-part2/index.md
     - Set A:
