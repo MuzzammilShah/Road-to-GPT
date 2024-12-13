@@ -1,8 +1,8 @@
+# SET C - LECTURE NOTES
 
------
---------
+----------
 
-###### **SUB-CHAPTER** [01:33:13](https://youtu.be/PaCmpygFfXo?si=V2C7LeM4z3eZS8Vi&t=5593) Now we are gonna fine-tune the W to optimize/minimize the loss, so we find a good value of W using gradient based optimization
+Now we are gonna fine-tune the W to optimize/minimize the loss, so we find a good value of W using gradient based optimization | **Timestamp:** [01:33:13](https://youtu.be/PaCmpygFfXo?si=V2C7LeM4z3eZS8Vi&t=5593) 
 
 Recap of micrograd, revised the forward pass, backward pass and the calculation of the loss value. 
 
@@ -10,7 +10,10 @@ Recap of micrograd, revised the forward pass, backward pass and the calculation 
 
 &nbsp;
 
-##### **CHAPTER** [01:35:49](https://www.youtube.com/watch?v=PaCmpygFfXo&t=5749s) vectorized loss
+## Vectorized loss
+
+#### **Timestamp**: [01:35:49](https://www.youtube.com/watch?v=PaCmpygFfXo&t=5749s) 
+
 First in the forward pass, we have to calculate the loss value. Now, unlike in Micrograd where we used Mean Squared Error, here we'll use the Negative Log Likelihood.
 Because there is was a Regression problem, now it is a classification one.
 
@@ -19,7 +22,10 @@ So `xs` is the first character and `ys` is the next occurring character, so we c
 
 &nbsp;
 
-##### **CHAPTER** [01:38:36](https://www.youtube.com/watch?v=PaCmpygFfXo&t=5916s) backward and update, in PyTorch
+## Backward and update, in PyTorch
+
+#### **Timestamp**: [01:38:36](https://www.youtube.com/watch?v=PaCmpygFfXo&t=5916s) 
+
 **Backward:**
 We calculated the backward pass. First we get the grad values to zero and then backpropagate through (Using PyTorch, so it is a lot more easier).
 Finally we get the W.grad values. Now those values (essentially weights) tells us how much influence they have on the final output loss value. So if it is positive and we add more to it, the loss value will increase.
@@ -28,11 +34,14 @@ Finally we get the W.grad values. Now those values (essentially weights) tells u
 Finally, here we just update the W.data values, basically nudging them slightly to decrease the loss value.
 
 Then finally we can perform the gradient descent cycle. After we update the value, when we do forward pass again, it should slightly decrease the loss value.
-###### **So when we achieve low loss, it means that the NN is assigning high probabilities to the next correct character.**
+ **So when we achieve low loss, it means that the NN is assigning high probabilities to the next correct character.**
 
 &nbsp;
 
-##### **CHAPTER** [01:42:55](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6175s) putting everything together
+## Putting everything together
+
+#### **Timestamp**: [01:42:55](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6175s) 
+
 We put all of the codes and process we have done right now all together. We can see how it is more efficient to perform these steps using a neural network. 
 
 **Here is it a very simple problem, as we are only predicting the next character (so there is only 2 in total) but when it increases, this entire step actually almost remains the same!** 
@@ -91,8 +100,11 @@ for k in range(20):
 
 &nbsp;
 
-##### **CHAPTER** [01:47:49](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6469s) note 1: one-hot encoding really just selects a row of the next Linear layer's weight matrix
-##### **CHAPTER** [01:50:18](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6618s) note 2: model smoothing as regularization loss
+## Notes
+
+#### Note 1: one-hot encoding really just selects a row of the next Linear layer's weight matrix | **Timestamp**: [01:47:49](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6469s) 
+
+#### Note 2: model smoothing as regularization loss | **Timestamp**: [01:50:18](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6618s) 
 
 So the above 2 chapters were like these additional notes where he compares how the steps we followed during the manual steps is almost exactly similar to the NN approach. Pretty cool, but I guess I'll understand it a lot better if I watch it a couple of more times.
 
@@ -103,12 +115,17 @@ So the above 2 chapters were like these additional notes where he compares how t
 
 &nbsp;
 
-##### **CHAPTER** [01:54:31](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6871s) sampling from the neural net
+## Sampling from the neural net
+
+#### **Timestamp**: [01:54:31](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6871s) 
+
 Finally here we just saw how sampling from this model produces the outputs (Spoiler alert: it will be the same as how we made the model manually, coz... it is the same model just that we made it using Neural nets) :)
 
 &nbsp;
 
-##### **CHAPTER** [01:56:16](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6976s) conclusion
+## Conclusion
+
+#### **Timestamp**: [01:56:16](https://www.youtube.com/watch?v=PaCmpygFfXo&t=6976s) 
 
 We introduced the bigram character level language model.
 We saw how we could: Train the model, Sample from the model and Evaluate the quality of the model using the Negative Log Likelihood (NLL) loss.
