@@ -1,3 +1,6 @@
+# Expanding tanh and adding more operations
+
+----------
 
 ### Addressing some conditions:
 
@@ -123,4 +126,9 @@ Therefore, no backward function here, as we are ultimately performing the additi
 Now that all of this is done, we update our Value object.
 
 Then we change the way we want 'o' in our examples. Therefore we will convert the 'tanh' into it's various expression (One of its derivative expression in fact => (e^2x -1) / (e^2x +1) )
-[Notebook](../9_expanding_tanh_into_more_operations.ipynb)
+[Notebook](../notebooks/9_expanding_tanh_into_more_operations.ipynb)
+
+&nbsp;
+
+---------
+Back to [Master Notes](A-main-video-lecture-notes.md)

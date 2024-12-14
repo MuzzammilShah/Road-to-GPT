@@ -1,3 +1,6 @@
+# Multi-Layer Perceptron
+
+----------
 
 Now we will be building a single neural net. It is basically the diagram we've been seeing for NN, where there is an Input layer, Hidden layers and Output layers.
 
@@ -5,7 +8,6 @@ Note: Also remember that [simple diagram](https://cs231n.github.io/assets/nn1/ne
 
 This process/lecture is divided into 4 stages, each interconnected to each other but broken down for understanding purpose.
 
-----------
 ---------
 ### STAGE 1: Defining a simple Neuron
 
@@ -254,8 +256,10 @@ n ->
 
 This [diagram](https://cs231n.github.io/assets/nn1/neural_net2.jpeg) is essentially what we have recreated here :)
 
-----
-----
-
 Now, this is just the forward pass implementation (You will notice that the grad values are still 0.0)
 So next that is what we will be working on! :))
+
+&nbsp;
+
+---------
+Back to [Master Notes](A-main-video-lecture-notes.md)

@@ -1,3 +1,6 @@
+# Micrograd Functionality
+
+----------
 
 Example
 ```
@@ -72,3 +75,8 @@ We just happen to use this machinery/mechanism to train a NN.
 This is such a very basic, atom level expression. So a and b are in scaler level, so only takes one values each.
 
 (IMP) *See this timestamp once- **5:48 to 6:48***
+
+&nbsp;
+
+---------
+Back to [Master Notes](A-main-video-lecture-notes.md)

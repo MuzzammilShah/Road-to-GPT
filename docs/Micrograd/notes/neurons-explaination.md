@@ -1,4 +1,6 @@
+# Neurons Explaination
 
+----------
 
 Take a look at these images:
 [Simple Neural Net](https://imgs.search.brave.com/vbceVtaIZJofYe6CBBGZ8fIuDGyI6ICi9EkhTeZfZCc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jczIz/MW4uZ2l0aHViLmlv/L2Fzc2V0cy9ubjEv/bmV1cmFsX25ldDIu/anBlZw)
@@ -52,3 +54,8 @@ So what comes out as an output is the activation function 'f' applied as a dot p
 
 ---------
 Now, we'll be implementing this in code.
+
+&nbsp;
+
+---------
+Back to [Master Notes](A-main-video-lecture-notes.md)

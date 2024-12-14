@@ -1,6 +1,6 @@
-Note from the author: It is very easy to understand (Alhamdulillah), it's basically the application of Chain Rule. Nothing to worry about :)
+# Crux Node - Backpropagation
 
----------
+----------
 
 Keeping that simple expression graph in mind, we will now perform backpropagation to the c & e nodes and then to the a & b. 
 
@@ -89,3 +89,8 @@ For node b:
 And that was it! So we basically iterated through each node one by one, and locally applied the chain rule on each of the operations. Therefore we see backwards from L, as to how that output was produced.
 
 **And THAT IS WHAT BACKPROPAGATION IS - It is just a recursive application of chain rule, backwards through the computational graph.** :)
+
+&nbsp;
+
+---------
+Back to [Master Notes](A-main-video-lecture-notes.md)

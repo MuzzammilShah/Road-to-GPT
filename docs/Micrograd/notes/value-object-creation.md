@@ -1,4 +1,6 @@
+# Value Object Creation
 
+----------
 
 First we will be building the 'Value' object which we had seen in the [micrograd-functionality](micrograd-functionality.md) explanation example.
 
@@ -139,11 +141,11 @@ Now we have:
 
 
 Made the visual graphs for the nodes of the NN. I have split it into two notebooks as I had to use Google Colab for graphviz.
-[Notebook](../3_1-graph-visualisation.ipynb)
+[Notebook](../notebooks/3_1-graph-visualisation.ipynb)
 
-------
 ----------
-## SUMMARY & WHAT TO DO NEXT:
+
+### SUMMARY & WHAT TO DO NEXT:
 
 - We have given various inputs like a, b, f that going into a mathematical expression and generate a single output L. **The entire graph generated visualizes a Forward Pass.** So, the output of the forward pass is -8 (the final value obtained in L)
 
@@ -158,3 +160,8 @@ Made the visual graphs for the nodes of the NN. I have split it into two noteboo
 - **So it's the weights that will be iterated on E.g. c, e, d, f**
 
 - Therefore during initialization, the gradient values will be set to 0 as we believe that those initial values do not affect the value of the output.
+
+&nbsp;
+
+---------
+Back to [Master Notes](A-main-video-lecture-notes.md)

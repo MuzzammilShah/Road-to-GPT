@@ -1,3 +1,6 @@
+# PyTorch Comparison
+
+----------
 
 In PyTorch, everything is defined in Tensors.
 Tensors are just n-dimensional array of scalars.
@@ -66,4 +69,9 @@ x2.data.item()
 
 So the idea was to prove that everything we've build till now very much agrees with the PyTorch API syntax. 
 But to also realize that everything will become just for efficient with PyTorch.
-[Notebook](x10_implementing_in_pytorch.ipynb)
+[Notebook](../notebooks/x10_implementing_in_pytorch.ipynb)
+
+&nbsp;
+
+---------
+Back to [Master Notes](A-main-video-lecture-notes.md)
