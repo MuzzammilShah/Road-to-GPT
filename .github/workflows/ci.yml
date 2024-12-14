@@ -11,8 +11,15 @@ jobs:
     if: github.event.repository.fork == false
 
     steps:
-      # Checkout the repository
-      - uses: actions/checkout@v4
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Git user credentials (this resolves Git authentication issues)
+      - name: Configure Git User
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       # Set up Python environment
       - name: Set up Python
@@ -35,9 +42,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs-material mkdocs-jupyter
 
-      # Deploy site to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: site
+      - run: mkdocs gh-deploy --force
