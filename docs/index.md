@@ -31,7 +31,7 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 
 |Path | Implementation of | Link | Lecture Status | Documentation Status |
 |------|--------|------|------|------|
-|Backpropagation|Micrograd|[Video Lecture](https://youtu.be/PaCmpygFfXo?si=YW_rkr7LU44YwouD)| :material-progress-check: Done | :material-progress-clock: Ongoing |
+|Backpropagation|Micrograd|[Video Lecture](https://youtu.be/PaCmpygFfXo?si=YW_rkr7LU44YwouD)| :material-progress-check: Done | :material-progress-check: Done |
 |Language Model-1|Makemore (Part 1)|[Video Lecture](https://youtu.be/PaCmpygFfXo?si=mJ8mN4QhPB997R0p)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-2|Makemore (Part 2)|[Video Lecture](https://youtu.be/TCH_1BHY58I?si=jvfgiqzLoRVSgj8u)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-3|Makemore (Part 3)|[Video Lecture](https://youtu.be/P6sfmUTpUmc?si=6072SkRZSdY1pPB2)| :material-progress-alert: - | :material-progress-alert: - |
