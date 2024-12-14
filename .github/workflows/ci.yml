@@ -5,10 +5,12 @@ on:
     branches:
       - main # Change if your default branch is not `main`
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == false
 
     steps:
       # Step 1: Checkout the repository
@@ -39,7 +41,6 @@ jobs:
       # Install required dependencies
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install mkdocs-material mkdocs-jupyter
 
       - run: mkdocs gh-deploy --force
