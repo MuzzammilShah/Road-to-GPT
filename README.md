@@ -54,7 +54,10 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 
 ---
 
-> **:warning: Warning**  
-> Please refrain from directly copying the contents of this site for any commercial purposes. Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.
+> ### ⚠️ **Warning**  
+> **:yellow_circle: Please refrain from directly copying the contents of this site for any commercial purposes.**  
+> Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.  
+>  
+> **:red_circle: <strong>Do not just copy the project and use without permission of the owner.</strong>**
 
 &nbsp;
