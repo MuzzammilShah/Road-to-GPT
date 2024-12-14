@@ -45,20 +45,16 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 
 &nbsp;
 
-### ‼️Reflections and Usage Guidelines
+## Reflections and Usage Guidelines
 
-<div style="padding: 10px; border-left: 4px solid rgb(28, 28, 28); background-color:rgb(239, 239, 239); margin-bottom: 10px;">
-<strong>Note</strong>  
-<ul>
-  <li>This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.</li>
-  <li>Feel free to use this site as a reference during your own learning journey!</li>
-  <li>If you find it helpful or notice any corrections that need to be made, don't hesitate to reach out.</li>
-</ul>
-</div>
+> **:memo: Note**  
+> - This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.  
+> - Feel free to use this site as a reference during your own learning journey!  
+> - If you find it helpful or notice any corrections that need to be made, don't hesitate to reach out.
 
-<div style="padding: 10px; border-left: 4px solid #d73a49; background-color: #ffeef0; margin-bottom: 10px;">
-<strong>Warning</strong>  
-<p>Please refrain from directly copying the contents of this site for any commercial purposes. Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical. <strong>Do not just copy the project and use without permisson of the owner.</strong></p>
-</div>
+---
+
+> **:warning: Warning**  
+> Please refrain from directly copying the contents of this site for any commercial purposes. Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.
 
 &nbsp;
