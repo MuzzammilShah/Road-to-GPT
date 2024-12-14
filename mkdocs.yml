@@ -45,7 +45,7 @@ nav:
       - Crux Node Backpropagation: Micrograd/notes/crux-node-backpropagation.md
       - Neurons Explaination: Micrograd/notes/neurons-explaination.md
       - Expanding tanh and adding more operations: Micrograd/notes/expanding-tanh-and-adding-more-operations.md
-      - PyTorch Comparison: Micrograd/notes/pytorch-comparison.md
+      - PyTorch Comparison: Micrograd/notes/pytorch-comparision.md
       - Multi-Layer Perceptron: Micrograd/notes/multi-layer-perceptron.md
     - Notebooks:
       - Derivative Simple Function: Micrograd/notebooks/1-derivative-simple-function.ipynb

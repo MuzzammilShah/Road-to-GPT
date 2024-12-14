@@ -47,9 +47,11 @@ In this part of the series, I focused on the following key topics:
 
 - Everything has been arranged in order, you just have to follow the default navigation path provided.
 
-- The main notebook with timestamps is under 'Master Notes'.
+- The main notebook with timestamps is under ['Master Notes'](notes/A-main-video-lecture-notes.md).
 
 - The additional notes can be navigated through the Master notes itself. If you feel like jumping directly to a topic, feel free to do so.
+
+- **Important: It is recommended to start from the 'Master Notes' page, this is your main page for the lecture, you'll be guided to the rest of the topics in the necessary sections within this page itself.**
 
 - The jupyter notebooks have also been divided and arranged based on the respective topic for simpler navigation and understanding.
 
