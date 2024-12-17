@@ -89,6 +89,12 @@ nav:
     - Set C:
       - Lecture Notes: Makemore-part2/C-main-makemore-part2.md
       - Jupyter Notebook: Makemore-part2/C-main-notebook.ipynb
+  - Language Model-3:
+    - Makemore Part 3: Makemore-part3/index.md
+    # - Set A:
+    #   - Lecture Notes: 
+    #   - Starter Code:
+    #   - Jupyter Notebook: 
 
 markdown_extensions:
   - toc:
