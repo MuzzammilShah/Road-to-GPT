@@ -39,7 +39,7 @@ In this part of the series, I explored the following key topics:
 **Codes:**
 
 - The Jupyter notebooks and code implementations are available within this documentation itself.
-- If you wish to view the repository where I originally worked on, you can view it here: [Neural Networks - Language Model 2](https://github.com/MuzzammilShah/NeuralNetworks-LanguageModels-3)
+- If you wish to view the repository where I originally worked on, you can view it here: [Neural Networks - Language Model 3](https://github.com/MuzzammilShah/NeuralNetworks-LanguageModels-3)
 
 ## Structure of Contents
 
