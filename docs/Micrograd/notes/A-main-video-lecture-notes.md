@@ -118,13 +118,15 @@ From 1:00:38, we'll see the tanh function in action and then the implementation 
 
 #### **Timestamp**: [01:09:02](https://www.youtube.com/watch?v=VMj-3S1tku0&t=4142s) 
 
-We will be creating functions which would calculate the backpropagation i.e. the gradient values by itself! As the name of the chapter suggests, we'll be implementing it in each of the operations, like for '+', ' * ', 'tanh'	\
-[Notebook](../notebooks/7_0_backward_func_each_operation.ipynb)	\
-\
-Note on the '_ backward' function created:	\
-	In the operation functions, we had created 'out' values which are an addition to/combination of the 'self' and 'other' values.	\
-	Therefore we set the 'out._ backward' to be the function that backpropagates the gradient.	\
-	Therefore we define what should happen when that particular operation function (Eg, add, mul) is called, inside the 'def backward()'
+We will be creating functions which would calculate the backpropagation i.e. the gradient values by itself! As the name of the chapter suggests, we'll be implementing it in each of the operations, like for '+', ' * ', 'tanh'
+
+[Notebook](../notebooks/7_0_backward_func_each_operation.ipynb)
+
+Note on the '_ backward' function created:
+
+- In the operation functions, we had created 'out' values which are an addition to/combination of the 'self' and 'other' values.
+- Therefore we set the 'out._ backward' to be the function that backpropagates the gradient.
+- Therefore we define what should happen when that particular operation function (Eg, add, mul) is called, inside the 'def backward()'
 
 &nbsp;
 
@@ -232,3 +234,5 @@ We are basically performing 'Gradient Descent' here, by slightly nudging the val
 &nbsp;
 
 *And that was the end of the first lecture! See you in the next one ;)*
+
+&nbsp;

@@ -93,7 +93,7 @@ nav:
     - Makemore Part 3: Makemore-part3/index.md
     - Set A:
     #   - Lecture Notes: 
-      - Starter Code: Makemore-part3/starter-code.ipynb
+      - Starter Code: Makemore-part3/executed-starter-code.ipynb
     #   - Jupyter Notebook: 
 
 markdown_extensions:
