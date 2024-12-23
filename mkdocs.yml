@@ -17,13 +17,13 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
       primary: white
-      accent: indigo
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/weather-night
         name: Switch to light mode
       primary: black
-      accent: indigo
+      accent: blue
 
   features:
     - navigation.tabs

@@ -63,7 +63,7 @@ So, we will be needing some data structures to maintain these expressions. Which
 - **Initial explanation from [value-object-creation](value-object-creation.md)**
 - **From 22:45 to 24:54 - Visualization:** Explained in [value-object-creation (Visualization of the expression)](value-object-creation.md#visualization-of-the-expression)
 - **From 24:55 to 29:01 - Generating the visual graphs** in [value-object-creation (Visualization of the expression continued)](value-object-creation.md#visualization-of-the-expression-continued)
-- [value-object-creation (SUMMARY & WHAT TO DO NEXT)](value-object-creation.md#summary--what-to-do-next)
+- [value-object-creation (SUMMARY & WHAT TO DO NEXT)](value-object-creation.md#summary-and-what-to-do-next)
 
 &nbsp;
 

@@ -145,7 +145,7 @@ Made the visual graphs for the nodes of the NN. I have split it into two noteboo
 
 ----------
 
-### SUMMARY & WHAT TO DO NEXT:
+### SUMMARY AND WHAT TO DO NEXT
 
 - We have given various inputs like a, b, f that going into a mathematical expression and generate a single output L. **The entire graph generated visualizes a Forward Pass.** So, the output of the forward pass is -8 (the final value obtained in L)
 
