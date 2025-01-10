@@ -5,8 +5,11 @@ hide:
 
 # **LANGUAGE MODEL - 3**
 
-!!! note 
+??? info 
     This implementation is currently ongoing. The lecture notes and notebooks will be added as I complete each SET. Stay tuned!
+    
+    !!! note "Update"
+        SET-A Lecture notes along with the notebooks have been added.
 
 ## Introduction
 

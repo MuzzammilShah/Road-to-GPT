@@ -92,9 +92,9 @@ nav:
   - Language Model-3:
     - Makemore Part 3: Makemore-part3/index.md
     - Set A:
-    #   - Lecture Notes: 
+      - Lecture Notes: Makemore-part3/A-main-makemore-part3.md
       - Starter Code: Makemore-part3/executed-starter-code.ipynb
-    #   - Jupyter Notebook: 
+      - Jupyter Notebook: Makemore-part3/A-main-notebook.ipynb
 
 markdown_extensions:
   - toc:
