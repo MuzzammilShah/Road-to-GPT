@@ -5,12 +5,6 @@ hide:
 
 # **LANGUAGE MODEL - 3**
 
-??? info 
-    This implementation is currently ongoing. The lecture notes and notebooks will be added as I complete each SET. Stay tuned!
-    
-    !!! note "Update"
-        SET-A Lecture notes along with the notebooks have been added.
-
 ## Introduction
 
 Welcome to my documentation for **Makemore Part 3** from Andrej Karpathy's Neural Networks: Zero to Hero series. This section focuses on the intricacies of **activations, gradients, and the introduction of Batch Normalization** in the context of training deep neural networks. Here, I’ve compiled my notes and insights from the lecture to serve as a reference for understanding these critical concepts and their practical applications.
@@ -37,7 +31,7 @@ In this part of the series, I explored the following key topics:
 
 **Video Lecture**
 
-- I watched the lecture on YouTube: [Building Makemore Part 3](https://youtu.be/P6sfmUTpUmc?si=PuCsoV2xeosnMlms)
+- I watched the lecture on YouTube: [Building Makemore Part 3](https://youtu.be/P6sfmUTpUmc?si=6072SkRZSdY1pPB2)
 
 **Codes:**
 
@@ -46,8 +40,7 @@ In this part of the series, I explored the following key topics:
 
 ## Structure of Contents
 
-- The lecture documentation has been divided into 2 sets: **Set A** and **Set B**
-- Each set has its own notes and notebook.
+- The lecture documentation has been divided into 1 set only, with one main notebook and two additional notebooks.
 - Notes have been marked with timestamps to the video.
 - This allows for simplicity and better understanding, as the lecture is long.
 

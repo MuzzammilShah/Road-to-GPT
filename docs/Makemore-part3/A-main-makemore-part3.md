@@ -338,3 +338,33 @@ See [PyTorch Documentation](https://pytorch.org/docs/stable/generated/torch.nn.B
 Overall revision and finally with a note of advise to not use batch norm as there are many better normalization techniques available now.
 
 
+## Additional Summary
+
+#### **Timestamp** [01:18:35](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=4715s) to [01:51:34](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=6694s) :
+
+!!! note
+	He does a quick summary explanations of all the different sections of the codes. It will be a lot easier to follow from the video, here are the timestamps:
+
+	- [01:18:35](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=4715s) just kidding: part2: PyTorch-ifying the code 
+	- [01:26:51](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=5211s) viz #1: forward pass activations statistics 
+	- [01:30:54](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=5454s) viz #2: backward pass gradient statistics 
+	- [01:32:07](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=5527s) the fully linear case of no non-linearities 
+	- [01:36:15](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=5775s) viz #3: parameter activation and gradient statistics 
+	- [01:39:55](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=5995s) viz #4: update:data ratio over time 
+	- [01:46:04](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=6364s) bringing back batchnorm, looking at the visualizations 
+	- [01:51:34](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=6694s) summary of the lecture for real this time
+
+	Also, it was supposed to be a quick summary of what all we have done, as for those visualization graph, some may have been a little challenging to understand, but we will get into its depth in the next upcoming videos. So keep learning!
+
+**The main 3 points discussed:**
+
+1. Introduction to Batch Norm, one of the first modern methods that were introduced to help stabilize training deep neural networks. How it works and How it will be used in a Neural Network.
+
+2. PyTorch-ifying the code and writing it into modules/layers/classes -> Linear, BatchNorm1d and tanh. These can be stacked up into neural nets like building blocks. So if you import `torch.nn` it will work here as well as the API calls are similar.
+
+3. Introducing the dynamic tools that are used to understand if the neural network is in a good state dynamically.
+	So we are looking at the statistics, histogram and activation of- *(graph 1)* the Forward pass activations, *(graph 2)* the Backward pass gradients and *(graph 3)* the ways it is going to get updated as part of the stochastic gradient descent (so we look at the mean, std and the ratio of the gradients to data) and *(graph 4)* finally the updates to the data (the final graph where we just compare it based on how it changes over time).
+
+Now, there are a lot things that haven't been explained as well. Right now we are actually getting to the cutting edge of where the field actually is. We certainly still haven't solved Initialization, Backpropagation - it's still under research but we are making progress and we have tools which are telling us if things are on the right track or not.
+
+----------

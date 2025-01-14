@@ -95,6 +95,7 @@ nav:
       - Lecture Notes: Makemore-part3/A-main-makemore-part3.md
       - Starter Code: Makemore-part3/executed-starter-code.ipynb
       - Jupyter Notebook: Makemore-part3/A-main-notebook.ipynb
+      - Visualization Code: Makemore-part3/visualization-tools.ipynb
 
 markdown_extensions:
   - toc:
