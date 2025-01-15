@@ -47,14 +47,13 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 
 ## Reflections and Usage Guidelines
 
-> ### **Note**  
+> [!NOTE]  
 > - This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.  
 > - Feel free to use this site as a reference during your own learning journey!  
 > - If you find it helpful or notice any corrections that need to be made, don't hesitate to reach out.
 
----
 
-> ### ⚠️ **Warning**  
+> [!WARNING]
 > **Please refrain from directly copying the contents of this site for any commercial purposes.**  
 > Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.  
 >  
