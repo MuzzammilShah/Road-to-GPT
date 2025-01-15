@@ -35,7 +35,7 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 |Language Model-1|Makemore (Part 1)|[Video Lecture](https://youtu.be/PaCmpygFfXo?si=mJ8mN4QhPB997R0p)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-2|Makemore (Part 2)|[Video Lecture](https://youtu.be/TCH_1BHY58I?si=jvfgiqzLoRVSgj8u)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-3|Makemore (Part 3)|[Video Lecture](https://youtu.be/P6sfmUTpUmc?si=6072SkRZSdY1pPB2)| :material-progress-check: Done | :material-progress-check: Done |
-|Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)| :material-progress-alert: - | :material-progress-alert: - |
+|Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)| :material-progress-clock: Ongoing | :material-progress-alert: - |
 |Language Model-5|Makemore (Part 5)|[Video Lecture](https://youtu.be/t3YJ5hKiMQ0?si=kPSjBl8rkxMlQEhv)| :material-progress-alert: - | :material-progress-alert: - |
 
 **Set-2 will focus on the Transformer Neural Network**
@@ -51,7 +51,7 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 
 ## Reflections and Usage Guidelines
 
-!!! note 
+!!! note ""
     - This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.
 
     - Feel free to use this site as a reference during your own learning journey!

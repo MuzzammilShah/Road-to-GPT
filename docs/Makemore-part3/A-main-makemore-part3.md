@@ -342,7 +342,7 @@ Overall revision and finally with a note of advise to not use batch norm as ther
 
 #### **Timestamp** [01:18:35](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=4715s) to [01:51:34](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=6694s) :
 
-!!! note
+!!! info
 	He does a quick summary explanations of all the different sections of the codes. It will be a lot easier to follow from the video, here are the timestamps:
 
 	- [01:18:35](https://www.youtube.com/watch?v=P6sfmUTpUmc&t=4715s) just kidding: part2: PyTorch-ifying the code 

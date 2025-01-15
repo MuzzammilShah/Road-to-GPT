@@ -5,8 +5,9 @@ theme:
   icon:
     logo: octicons/ai-model-16
     admonition:
-      note: material/alert-circle
+      note: material/pencil-circle
       warning: material/alert
+      info: material/alert-circle
   favicon: assets/images/favicon.png
   font:
     text: Poppins
@@ -96,6 +97,8 @@ nav:
       - Starter Code: Makemore-part3/executed-starter-code.ipynb
       - Jupyter Notebook: Makemore-part3/A-main-notebook.ipynb
       - Visualization Code: Makemore-part3/visualization-tools.ipynb
+  - Language Model-4:
+    - Makemore Part 4: Makemore-part4/index.md
 
 markdown_extensions:
   - toc:
