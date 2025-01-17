@@ -11,7 +11,7 @@ hide:
 &nbsp;
 
 ## About Me
-I am Muhammed Muzzammil Shah, currently working as a Junior Software Engineer at a startup. My primary focus is on implementing Artificial Intelligence and Machine Learning solutions.
+I am Muhammed Muzzammil Shah, currently working as a Junior AI Software Engineer at a startup. My primary focus is on implementing Artificial Intelligence and Machine Learning solutions.
 
 If you would like to learn more about me, please feel free to visit my [official website](https://muhammedshah.com)!
 
@@ -54,9 +54,9 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 !!! note "Note from the author"
     - This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.
 
-    - Feel free to use this site as a reference during your own learning journey!
-
     - If you find it helpful or notice any corrections that need to be made, don't hesitate to reach out.
+
+    - Feel free to use this site as a reference during your own learning journey!
 
 !!! warning
     Please refrain from directly copying the contents of this site for any commercial purposes. Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.
