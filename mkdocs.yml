@@ -99,6 +99,8 @@ nav:
       - Visualization Code: Makemore-part3/visualization-tools.ipynb
   - Language Model-4:
     - Makemore Part 4: Makemore-part4/index.md
+    - Set A:
+      - Exercise 1: Makemore-part4/exercise-1.ipynb
 
 markdown_extensions:
   - toc:
