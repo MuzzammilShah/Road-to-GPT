@@ -121,7 +121,7 @@ extra:
   social:
     - icon: material/web
       link: https://muhammedshah.com
-    - icon: simple/linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/muhammedshah
     - icon: simple/github
       link: https://github.com/muzzammilshah
