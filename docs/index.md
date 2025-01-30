@@ -3,44 +3,42 @@ hide:
   - navigation
 ---
 <div style="text-align: center;">
-    <img src="assets/images/main-page-logo.png" alt="Road to GPT" width="60%">
-    <hr>
     <h1>Road to GPT Documentation</h1>
+    <img src="assets/images/thumbnail.png" alt="Series Thumbnail">
 </div>
 
 &nbsp;
 
-## About Me
-I am Muhammed Muzzammil Shah, currently working as a Junior AI Software Engineer at a startup. My primary focus is on implementing Artificial Intelligence and Machine Learning solutions.
+## About This Site
+This platform serves as a structured documentation hub for my journey in understanding and implementing artificial intelligence and machine learning concepts, with a primary focus on building a GPT model. The content is heavily based on [Andrej Karpathy](https://karpathy.ai)'s Neural Networks: Zero to Hero series and aims to provide well-organized insights, implementations, and notes for anyone following a similar path.
 
-If you would like to learn more about me, please feel free to visit my [official website](https://muhammedshah.com)!
+This site is designed for:
 
-&nbsp;
+- Learners and developers interested in AI and deep learning.
 
-## Purpose of this site
-I created this platform to serve as a repository for all my notes and practical implementations related to everything I have learned on my journey toward implementing the GPT model.
+- Anyone following Karpathy's Zero to Hero series.
 
-My Learning path follows **[Andrej Karpathy](https://karpathy.ai)'s Neural Networks: Zero to Hero** series. 
+- The open-source community looking for structured references and implementations.
 
 &nbsp;
 
 ## Documentation structure
-I have divided my learning resources into two sections: **Set-1** and **Set-2**.
+The learning resources are divided into two primary sections: **Set-1** and **Set-2**.
 
-**Set-1 will focus on Language Modelling Framework**
+**Set-1: Language Modeling Framework**
 
-|Path | Implementation of | Link | Lecture Status | Documentation Status |
+|Topic | Implementation of | Lecture Link | Lecture Status | Documentation Status |
 |------|--------|------|------|------|
 |Backpropagation|Micrograd|[Video Lecture](https://youtu.be/PaCmpygFfXo?si=YW_rkr7LU44YwouD)| :material-progress-check: Done | :material-progress-check: Done |
 |Language Model-1|Makemore (Part 1)|[Video Lecture](https://youtu.be/PaCmpygFfXo?si=mJ8mN4QhPB997R0p)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-2|Makemore (Part 2)|[Video Lecture](https://youtu.be/TCH_1BHY58I?si=jvfgiqzLoRVSgj8u)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-3|Makemore (Part 3)|[Video Lecture](https://youtu.be/P6sfmUTpUmc?si=6072SkRZSdY1pPB2)| :material-progress-check: Done | :material-progress-check: Done |
-|Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)| :material-progress-clock: Ongoing | :material-progress-alert: - |
+|Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)| :material-progress-clock: Ongoing | :material-progress-clock: Ongoing |
 |Language Model-5|Makemore (Part 5)|[Video Lecture](https://youtu.be/t3YJ5hKiMQ0?si=kPSjBl8rkxMlQEhv)| :material-progress-alert: - | :material-progress-alert: - |
 
-**Set-2 will focus on the Transformer Neural Network**
+**Set-2: Transformer Neural Networks**
 
-|Path | Implementation of | Link | Lecture Status | Documentation Status |
+|Topic | Implementation of | Lecture Link | Lecture Status | Documentation Status |
 |------|--------|------|------|------|
 |Transformer Model-1 (GPT)|Build GPT|[Video Lecture](https://youtu.be/kCc8FmEb1nY?si=hMmmnADUeWywJ8qt)| :material-progress-alert: - | :material-progress-alert: - |
 |LLMs|Large Language Models|[Video Lecture](https://youtu.be/zjkBMFhNj_g?si=oY_9h8gak_4JA5PH)| :material-progress-alert: - | :material-progress-alert: - |
@@ -52,13 +50,18 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 ## Reflections and Usage Guidelines
 
 !!! note "Note from the author"
-    - This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.
+    - This repository is a personal knowledge base for revision, experimentation, and sharing insights.
 
-    - If you find it helpful or notice any corrections that need to be made, don't hesitate to reach out.
+    - If you find it useful, or spot any errors or improvements, feel free to reach out.
 
-    - Feel free to use this site as a reference during your own learning journey!
+    - You are welcome to reference this material for your own learning journey!
 
-!!! warning
-    Please refrain from directly copying the contents of this site for any commercial purposes. Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.
+!!! warning "Ethical Usage"
+    This content is based on open-source educational materials (Thanks to Andrej Karpathy). While you are encouraged to learn from and contribute to this resource, please do not copy or repurpose it for commercial use. Respect the effort behind this work, and let's continue fostering an open and ethical AI learning community!
 
 &nbsp;
+
+<div style="text-align: center;">
+    <hr>
+    <img src="assets/images/main-page-logo.png" alt="Road to GPT" width="40%">
+</div>

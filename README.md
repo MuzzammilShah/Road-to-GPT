@@ -1,29 +1,26 @@
+## Road-to-GPT Documentation site
+
 <div align="center">
-<img src="docs/assets/images/main-page-logo.png" alt="Road to GPT" width="70%">
+<img src="docs/assets/images/thumbnail.png" alt="Thumbnail" width="80%">
 </div>
 
-&nbsp;
+### 🎯About This Site
+This platform serves as a structured documentation hub for my journey in understanding and implementing artificial intelligence and machine learning concepts, with a primary focus on building a GPT model. The content is heavily based on [Andrej Karpathy](https://karpathy.ai)'s Neural Networks: Zero to Hero series and aims to provide well-organized insights, implementations, and notes for anyone following a similar path.
 
-## Hello, Welcome to my Road to GPT Documentation site!
+This site is designed for:
 
-### 👋🏻About Me
-I am Muhammed Muzzammil Shah, currently working as a Junior AI Software Engineer at a startup. My primary focus is on implementing Artificial Intelligence and Machine Learning solutions.
+- Learners and developers interested in AI and deep learning.
 
-If you would like to learn more about me, please feel free to visit my [official website](https://muhammedshah.com)!
+- Anyone following Karpathy's Zero to Hero series.
 
-&nbsp;
-
-### 🎯Purpose of this site
-I created this platform to serve as a repository for all my notes and practical implementations related to everything I have learned on my journey toward implementing the GPT model.
-
-My Learning path follows **[Andrej Karpathy](https://karpathy.ai)'s Neural Networks: Zero to Hero** series. 
+- The open-source community looking for structured references and implementations.
 
 &nbsp;
 
 ### 🗃️Documentation structure
-I have divided my learning resources into two sections: **Set-1** and **Set-2**.
+The learning resources are divided into two primary sections: **Set-1** and **Set-2**.
 
-**Set-1 will focus on Language Modelling Framework**
+**Set-1: Language Modeling Framework**
 
 |Path | Implementation of | Link |
 |------|--------|------|
@@ -34,7 +31,7 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 |Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)|
 |Language Model-5|Makemore (Part 5)|[Video Lecture](https://youtu.be/t3YJ5hKiMQ0?si=kPSjBl8rkxMlQEhv)|
 
-**Set-2 will focus on the Transformer Neural Network**
+**Set-2: Transformer Neural Networks**
 
 |Path | Implementation of | Link |
 |------|--------|------|
@@ -45,18 +42,19 @@ I have divided my learning resources into two sections: **Set-1** and **Set-2**.
 
 &nbsp;
 
-## Reflections and Usage Guidelines
+### ❗Reflections and Usage Guidelines
 
 > [!NOTE]  
-> - This site serves as a personal knowledge base that I can return to anytime I need to revise, understand, demo, or explain anything.  
-> - Feel free to use this site as a reference during your own learning journey!  
-> - If you find it helpful or notice any corrections that need to be made, don't hesitate to reach out.
+> - This repository is a personal knowledge base for revision, experimentation, and sharing insights.  
+> - If you find it useful, or spot any errors or improvements, feel free to reach out.  
+> - You are welcome to reference this material for your own learning journey!
 
 
 > [!WARNING]
-> **Please refrain from directly copying the contents of this site for any commercial purposes.**  
-> Although the primary lectures it draws from are open-source and freely available online (thanks to Andrej Karpathy), doing so would not be fair or ethical.  
->  
-> **Do not just copy the project and use without permission of the owner.**
+> This content is based on open-source educational materials (Thanks to Andrej Karpathy). While you are encouraged to learn from and contribute to this resource, please do not copy or repurpose it for commercial use. Respect the effort behind this work, and let's continue fostering an open and ethical AI learning community!
 
 &nbsp;
+
+<div align="center">
+<img src="docs/assets/images/main-page-logo.png" alt="Road to GPT" width="50%">
+</div>
