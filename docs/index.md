@@ -33,15 +33,14 @@ The learning resources are divided into two primary sections: **Set-1** and **Se
 |Language Model-1|Makemore (Part 1)|[Video Lecture](https://youtu.be/PaCmpygFfXo?si=mJ8mN4QhPB997R0p)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-2|Makemore (Part 2)|[Video Lecture](https://youtu.be/TCH_1BHY58I?si=jvfgiqzLoRVSgj8u)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-3|Makemore (Part 3)|[Video Lecture](https://youtu.be/P6sfmUTpUmc?si=6072SkRZSdY1pPB2)| :material-progress-check: Done | :material-progress-check: Done |
-|Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)| :material-progress-clock: Ongoing | :material-progress-clock: Ongoing |
+|Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)| :material-progress-check: Done | :material-progress-check: Done |
 |Language Model-5|Makemore (Part 5)|[Video Lecture](https://youtu.be/t3YJ5hKiMQ0?si=kPSjBl8rkxMlQEhv)| :material-progress-alert: - | :material-progress-alert: - |
 
-**Set-2: Transformer Neural Networks**
+**Set-2: Transformer based Modeling Framework**
 
 |Topic | Implementation of | Lecture Link | Lecture Status | Documentation Status |
 |------|--------|------|------|------|
 |Transformer Model-1 (GPT)|Build GPT|[Video Lecture](https://youtu.be/kCc8FmEb1nY?si=hMmmnADUeWywJ8qt)| :material-progress-alert: - | :material-progress-alert: - |
-|LLMs|Large Language Models|[Video Lecture](https://youtu.be/zjkBMFhNj_g?si=oY_9h8gak_4JA5PH)| :material-progress-alert: - | :material-progress-alert: - |
 |Tokenizers|Build GPT Tokenizer|[Video Lecture](https://youtu.be/zduSFxRajkE?si=o3BdcoWkvDjr7Ddl)| :material-progress-alert: - | :material-progress-alert: - |
 |Transformer Model-2 (GPT)|Reproducing GPT-2|[Video Lecture](https://youtu.be/l8pRSuU81PU?si=YMklSfDxPVCP05p5)| :material-progress-alert: - | :material-progress-alert: - |
 

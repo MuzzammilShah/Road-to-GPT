@@ -5,8 +5,6 @@ hide:
 
 # **LANGUAGE MODEL - 4**
 
-!!! warning "Ongoing project"
-
 ## Introduction and Overview
 
 Welcome to my documentation for **Makemore Part 4** from Andrej Karpathy's Neural Networks: Zero to Hero series. In this section we take the 2-layer MLP (with BatchNorm) from the previous video/lecture and **backpropagate through it manually without using PyTorch autograd's loss.backward()**. So we will be manually backpropagating through the cross entropy loss, 2nd linear layer, tanh, batchnorm, 1st linear layer, and the embedding table. 
@@ -23,7 +21,9 @@ Along the way, we get a strong intuitive understanding about how gradients flow 
 !!! note "Note from the author"
     The format and structure of this particular section of the project will be different from what I've implemented so far, as Andrej Karpathy himself had quoted- "I recommend you work through the exercise yourself but work with it in tandem and whenever you are stuck unpause the video and see me give away the answer. This video is not super intended to be simply watched."
 
-    So keeping this in mind, we will be focusing more on the notebook itself and only making notes whenever absolutely necessary
+    So keeping this in mind, we will be focusing more on the notebook itself and only making notes whenever absolutely necessary.
+    
+    You will find my notes/key points as comments in the code cells (Apart from the time stamps with necessary headers which will be in their normal format ofcourse)
 
 &nbsp;
 

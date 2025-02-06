@@ -101,6 +101,9 @@ nav:
     - Makemore Part 4: Makemore-part4/index.md
     - Set A:
       - Exercise 1: Makemore-part4/exercise-1.ipynb
+      - Exercise 2: Makemore-part4/exercise-2.ipynb
+      - Exercise 3: Makemore-part4/exercise-3.ipynb
+      - Final code: Makemore-part4/final-code.ipynb
 
 markdown_extensions:
   - toc:

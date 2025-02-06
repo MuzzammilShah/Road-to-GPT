@@ -36,7 +36,6 @@ The learning resources are divided into two primary sections: **Set-1** and **Se
 |Path | Implementation of | Link |
 |------|--------|------|
 |Transformer Model-1 (GPT)|Build GPT|[Video Lecture](https://youtu.be/kCc8FmEb1nY?si=hMmmnADUeWywJ8qt)|
-|LLMs|Large Language Models|[Video Lecture](https://youtu.be/zjkBMFhNj_g?si=oY_9h8gak_4JA5PH)|
 |Tokenizers|Build GPT Tokenizer|[Video Lecture](https://youtu.be/zduSFxRajkE?si=o3BdcoWkvDjr7Ddl)|
 |Transformer Model-2 (GPT)|Reproducing GPT-2|[Video Lecture](https://youtu.be/l8pRSuU81PU?si=YMklSfDxPVCP05p5)|
 
