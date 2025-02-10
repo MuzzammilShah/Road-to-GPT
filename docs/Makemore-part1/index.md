@@ -5,6 +5,8 @@ hide:
 
 # **LANGUAGE MODEL - 1**
 
+**Timeline: 4th - 22nd November, 2024**
+
 ## Introduction
 
 Welcome to my documentation for **Makemore Part 1** from Andrej Karpathy's Neural Networks: Zero to Hero series. This section focuses on implementing a **bigram character-level language model**. Here, I’ve compiled my notes and insights from the lecture to serve as a reference for understanding the foundational concepts and practical implementations discussed.

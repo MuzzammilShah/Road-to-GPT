@@ -34,7 +34,7 @@ The learning resources are divided into two primary sections: **Set-1** and **Se
 |Language Model-2|Makemore (Part 2)|[Video Lecture](https://youtu.be/TCH_1BHY58I?si=jvfgiqzLoRVSgj8u)| :material-progress-check: Done | :material-progress-check: Done | 
 |Language Model-3|Makemore (Part 3)|[Video Lecture](https://youtu.be/P6sfmUTpUmc?si=6072SkRZSdY1pPB2)| :material-progress-check: Done | :material-progress-check: Done |
 |Language Model-4|Makemore (Part 4)|[Video Lecture](https://youtu.be/q8SA3rM6ckI?si=e-ON-yHPUtFWzY2L)| :material-progress-check: Done | :material-progress-check: Done |
-|Language Model-5|Makemore (Part 5)|[Video Lecture](https://youtu.be/t3YJ5hKiMQ0?si=kPSjBl8rkxMlQEhv)| :material-progress-alert: - | :material-progress-alert: - |
+|Language Model-5|Makemore (Part 5)|[Video Lecture](https://youtu.be/t3YJ5hKiMQ0?si=kPSjBl8rkxMlQEhv)| :material-progress-check: Done | :material-progress-check: Done |
 
 **Set-2: Transformer based Modeling Framework**
 

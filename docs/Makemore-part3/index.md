@@ -5,6 +5,8 @@ hide:
 
 # **LANGUAGE MODEL - 3**
 
+**Timeline: 6th - 14th January, 2025**
+
 ## Introduction
 
 Welcome to my documentation for **Makemore Part 3** from Andrej Karpathy's Neural Networks: Zero to Hero series. This section focuses on the intricacies of **activations, gradients, and the introduction of Batch Normalization** in the context of training deep neural networks. Here, I’ve compiled my notes and insights from the lecture to serve as a reference for understanding these critical concepts and their practical applications.

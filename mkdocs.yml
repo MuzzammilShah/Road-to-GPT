@@ -104,6 +104,11 @@ nav:
       - Exercise 2: Makemore-part4/exercise-2.ipynb
       - Exercise 3: Makemore-part4/exercise-3.ipynb
       - Final code: Makemore-part4/final-code.ipynb
+  - Language Model-5:
+    - Makemore Part 5: Makemore-part5/index.md
+    - Notes and Codes:
+      - Lecture Notes: Makemore-part5/Main-makemore-part-5.md
+      - Jupyter Notebook: Makemore-part5/Main-notebook-part-5.ipynb
 
 markdown_extensions:
   - toc:

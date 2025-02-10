@@ -5,6 +5,8 @@ hide:
 
 # **BACKPROPAGATION - Using an AutoGrad Engine**
 
+**Timeline: 2nd - 27th October, 2024**
+
 ## Introduction
 
 Welcome to my documentation for the Micrograd video from Andrej Karpathy's Neural Networks: Zero to Hero series. This lecture provides a detailed exploration of **Micrograd, a tiny autograd engine** designed for educational purposes. In this documentation, I’ve compiled my notes and insights from the lecture to serve as a reference for understanding the core concepts of automatic differentiation and backpropagation in neural networks.

@@ -5,6 +5,8 @@ hide:
 
 # **LANGUAGE MODEL - 2**
 
+**Timeline: 26th November - 11th December, 2024**
+
 ## Introduction
 
 Welcome to my documentation for **Makemore Part 2** from Andrej Karpathy's Neural Networks: Zero to Hero series. This section focuses on implementing a **Multilayer Perceptron (MLP) as a character-level language model**. Here, I’ve compiled my notes and insights from the lecture to serve as a reference for understanding the key concepts and practical implementations discussed.
