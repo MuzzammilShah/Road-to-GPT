@@ -19,7 +19,7 @@ learning_rate = 1e-2
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
 
-torch.manual_seed(1337)
+torch.manual_seed(3007)
 
 with open('cleaned_dataset.txt', 'r', encoding='utf-8') as f:
     text = f.read()
@@ -82,7 +82,7 @@ def estimate_loss():
     - `X, Y = get_batch(split)`: Get a batch of training or validation data.
     - `logits, loss = model(X, Y)`: Compute predictions and loss.
     - `losses[k] = loss.item()`: Store the loss in the tensor.
-- `out[split] = losses.mean()`: Compute the average loss across `eval_iters` runs for more stable estimates.
+- `out[split] = losses.mean()`: Compute the average loss across `eval_iters` runs for more stable estimates. This is to reduce the noice (for example, the visual graph would look like its waving up and down, this stabalises it).
 - `model.train()`: Switch back to training mode.
 - `return out`: Returns a dictionary with average training and validation loss.
 
@@ -135,7 +135,7 @@ def forward(self, idx, targets=None):
         - `logits = self.token_embedding_table(idx)` → Shape `(B, T, C)`, where `C = vocab_size` (one row for each token).
     - Compute loss (if targets exist):
         - Reshape `logits` and `targets` to be `(B*T, C)` and `(B*T)`, respectively.
-        - Compute `F.cross_entropy(logits, targets)`, which measures how well the predicted character distribution matches the true character.
+        - Compute `F.cross_entropy(logits, targets)`, which measures how well the predicted character distribution matches the true character. It is basically the calculation of the 'negative log likehood' which we found out was the best way to determine the loss in a language model.
     - Return:
         - `logits`: The raw scores for the next token.
         - `loss`: The loss value (if `targets` were provided).
