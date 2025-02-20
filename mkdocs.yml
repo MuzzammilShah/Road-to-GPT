@@ -113,7 +113,7 @@ nav:
     - Transformer Model-1: GPT-1/index.md
     - Codes Implemented: 
       - Notebook Implemented: GPT-1/gpt-dev.ipynb
-      - Bigram Py Script: GPT-1/bigram.md
+      - Bigram Script Breakdown: GPT-1/bigram.md
 
 markdown_extensions:
   - toc:

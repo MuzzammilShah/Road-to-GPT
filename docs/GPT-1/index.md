@@ -5,5 +5,4 @@ hide:
 
 # **TRANSFORMER MODEL - GPT 1**
 
-!!! warning "Status"
-    Ongoing project
+**Timeline: 11th - 21st February, 2025**
