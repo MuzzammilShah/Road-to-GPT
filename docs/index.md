@@ -40,7 +40,7 @@ The learning resources are divided into two primary sections: **Set-1** and **Se
 
 |Topic | Implementation of | Lecture Link | Lecture Status | Documentation Status |
 |------|--------|------|------|------|
-|Transformer Model-1 (GPT)|Build GPT|[Video Lecture](https://youtu.be/kCc8FmEb1nY?si=hMmmnADUeWywJ8qt)| :material-progress-clock: Ongoing | :material-progress-alert: - |
+|Transformer Model-1 (GPT)|Build GPT|[Video Lecture](https://youtu.be/kCc8FmEb1nY?si=hMmmnADUeWywJ8qt)| :material-progress-check: Done | :material-progress-check: Done |
 |Tokenizers|Build GPT Tokenizer|[Video Lecture](https://youtu.be/zduSFxRajkE?si=o3BdcoWkvDjr7Ddl)| :material-progress-alert: - | :material-progress-alert: - |
 |Transformer Model-2 (GPT)|Reproducing GPT-2|[Video Lecture](https://youtu.be/l8pRSuU81PU?si=YMklSfDxPVCP05p5)| :material-progress-alert: - | :material-progress-alert: - |
 
