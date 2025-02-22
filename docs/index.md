@@ -4,7 +4,7 @@ hide:
 ---
 <div style="text-align: center;">
     <h1>Road to GPT Documentation</h1>
-    <img src="assets/images/thumbnail.png" alt="Series Thumbnail">
+    <img src="assets/images/thumbnail-3.png" alt="Series Thumbnail">
 </div>
 
 &nbsp;

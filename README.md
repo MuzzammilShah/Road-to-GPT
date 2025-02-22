@@ -1,7 +1,7 @@
 ## Road-to-GPT Documentation site
 
 <div align="center">
-<img src="docs/assets/images/thumbnail.png" alt="Thumbnail" width="80%">
+<img src="docs/assets/images/thumbnail-3.png" alt="Thumbnail" width="80%">
 </div>
 
 ### 🎯About This Site
