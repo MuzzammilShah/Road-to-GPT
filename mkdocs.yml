@@ -10,8 +10,7 @@ theme:
       info: material/alert-circle
   favicon: assets/images/favicon.png
   font:
-    text: "Public Sans"
-    code: "Roboto Mono"
+    text: "Inter"
 
   palette:
     - scheme: default
@@ -35,6 +34,7 @@ theme:
     - navigation.footer
     - search.highlight
     - search.suggest
+    - content.code.copy
 
 nav:
   - Home: index.md
@@ -139,7 +139,7 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra_css:
-  - assets/custom.css
+  - stylesheets/custom.css
 
 extra:
   social:
