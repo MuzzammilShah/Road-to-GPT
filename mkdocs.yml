@@ -1,4 +1,4 @@
-site_name: "Road to GPT"
+site_name: "Road to AI"
 
 theme:
   name: material
@@ -10,7 +10,8 @@ theme:
       info: material/alert-circle
   favicon: assets/images/favicon.png
   font:
-    text: Poppins
+    text: "Public Sans"
+    code: "Roboto Mono"
 
   palette:
     - scheme: default
@@ -36,84 +37,94 @@ theme:
     - search.suggest
 
 nav:
-  - Main: index.md
-  - Backpropagation:
-    - Micrograd: Micrograd/index.md
-    - Lecture Notes:
-      - Master Notes: Micrograd/notes/A-main-video-lecture-notes.md
-      - Micrograd Functionality: Micrograd/notes/micrograd-functionality.md
-      - Value Object Creation: Micrograd/notes/value-object-creation.md
-      - Crux Node Backpropagation: Micrograd/notes/crux-node-backpropagation.md
-      - Neurons Explaination: Micrograd/notes/neurons-explaination.md
-      - Expanding tanh and adding more operations: Micrograd/notes/expanding-tanh-and-adding-more-operations.md
-      - PyTorch Comparison: Micrograd/notes/pytorch-comparision.md
-      - Multi-Layer Perceptron: Micrograd/notes/multi-layer-perceptron.md
-    - Notebooks:
-      - Derivative Simple Function: Micrograd/notebooks/1-derivative-simple-function.ipynb
-      - Derivative Function with Multiple Inputs: Micrograd/notebooks/2-derivative-function-with-multiple-inputs.ipynb
-      - Graph Visualisation: Micrograd/notebooks/3_1-graph-visualisation.ipynb
-      - Value Object: Micrograd/notebooks/3-value-object.ipynb
-      - Manual Backpropagation-0: Micrograd/notebooks/4_0_manual_backpropagation_simpleExpression.ipynb
-      - Manual Backpropagation-1: Micrograd/notebooks/4_1_manual_backpropagation_simpleExpression.ipynb
-      - Manual Backpropagation-2: Micrograd/notebooks/4_2_manual_backpropagation_simpleExpression.ipynb
-      - Optimization Single Step Preview: Micrograd/notebooks/5_optimization_single_step_preview.ipynb
-      - Backpropagation Neuron: Micrograd/notebooks/6_0_backpropagation_neuron.ipynb
-      - Backpropagation Neuron - Manual Calculation: Micrograd/notebooks/6_1_backpropagation_neuron_manual_calculation.ipynb
-      - Backward Function - Each operation: Micrograd/notebooks/7_0_backward_func_each_operation.ipynb
-      - Backward Function - Entire Graph: Micrograd/notebooks/7_1_backward_func_entire_graph.ipynb
-      - Handing one node used multiple times: Micrograd/notebooks/8_handling_onenode_used_multiple_times.ipynb
-      - Expanding tanh into more operations: Micrograd/notebooks/9_expanding_tanh_into_more_operations.ipynb
-      - Implementing in PyTorch: Micrograd/notebooks/x10_implementing_in_pytorch.ipynb
-      - Creating a MLP: Micrograd/notebooks/x11_creating_a_multi_layer_perceptron.ipynb
-      - Creating a Loss function: Micrograd/notebooks/x12_creating_a_loss_function.ipynb
-      - Collecting all parameters in Neural Net: Micrograd/notebooks/x13_collecting_all_parameters_in_NN.ipynb
-      - Manual Gradient Descent Optimization: Micrograd/notebooks/x14_manual_gradient_descent_optimization.ipynb
-  - Language Model-1:
-    - Makemore Part 1: Makemore-part1/index.md
-    - Set A:
-      - Lecture Notes: Makemore-part1/A-main-makemore-part1.md
-      - Jupyter Notebook: Makemore-part1/A-Main-Notebook.ipynb
-    - Set B:
-      - Lecture Notes: Makemore-part1/B-main-makemore-part1.md
-      - Jupyter Notebook: Makemore-part1/B-Main-Notebook.ipynb
-    - Set C:
-      - Lecture Notes: Makemore-part1/C-main-makemore-part1.md
-      - Jupyter Notebook: Makemore-part1/C-Main-Notebook.ipynb
-  - Language Model-2:
-    - Makemore Part 2: Makemore-part2/index.md
-    - Set A:
-      - Lecture Notes: Makemore-part2/A-main-makemore-part2.md
-      - Jupyter Notebook: Makemore-part2/A-main-notebook.ipynb
-    - Set B:
-      - Lecture Notes: Makemore-part2/B-main-makemore-part2.md
-      - Jupyter Notebook: Makemore-part2/B-main-notebook.ipynb
-    - Set C:
-      - Lecture Notes: Makemore-part2/C-main-makemore-part2.md
-      - Jupyter Notebook: Makemore-part2/C-main-notebook.ipynb
-  - Language Model-3:
-    - Makemore Part 3: Makemore-part3/index.md
-    - Set A:
-      - Lecture Notes: Makemore-part3/A-main-makemore-part3.md
-      - Starter Code: Makemore-part3/executed-starter-code.ipynb
-      - Jupyter Notebook: Makemore-part3/A-main-notebook.ipynb
-      - Visualization Code: Makemore-part3/visualization-tools.ipynb
-  - Language Model-4:
-    - Makemore Part 4: Makemore-part4/index.md
-    - Set A:
-      - Exercise 1: Makemore-part4/exercise-1.ipynb
-      - Exercise 2: Makemore-part4/exercise-2.ipynb
-      - Exercise 3: Makemore-part4/exercise-3.ipynb
-      - Final code: Makemore-part4/final-code.ipynb
-  - Language Model-5:
-    - Makemore Part 5: Makemore-part5/index.md
-    - Notes and Codes:
-      - Lecture Notes: Makemore-part5/Main-makemore-part-5.md
-      - Jupyter Notebook: Makemore-part5/Main-notebook-part-5.ipynb
-  - GPT-1:
-    - Transformer Model-1: GPT-1/index.md
-    - Codes Implemented: 
-      - Notebook Implemented: GPT-1/gpt-dev.ipynb
-      - Bigram Script Breakdown: GPT-1/bigram.md
+  - Home: index.md
+  - Neural Networks:
+    - Zero to Hero Series: ZeroToHero/index.md
+    - Backpropagation:
+      - Micrograd: ZeroToHero/Micrograd/index.md
+      - Lecture Notes:
+        - Master Notes: ZeroToHero/Micrograd/notes/A-main-video-lecture-notes.md
+        - Micrograd Functionality: ZeroToHero/Micrograd/notes/micrograd-functionality.md
+        - Value Object Creation: ZeroToHero/Micrograd/notes/value-object-creation.md
+        - Crux Node Backpropagation: ZeroToHero/Micrograd/notes/crux-node-backpropagation.md
+        - Neurons Explaination: ZeroToHero/Micrograd/notes/neurons-explaination.md
+        - Expanding tanh and adding more operations: ZeroToHero/Micrograd/notes/expanding-tanh-and-adding-more-operations.md
+        - PyTorch Comparison: ZeroToHero/Micrograd/notes/pytorch-comparision.md
+        - Multi-Layer Perceptron: ZeroToHero/Micrograd/notes/multi-layer-perceptron.md
+      - Notebooks:
+        - Derivative Simple Function: ZeroToHero/Micrograd/notebooks/1-derivative-simple-function.ipynb
+        - Derivative Function with Multiple Inputs: ZeroToHero/Micrograd/notebooks/2-derivative-function-with-multiple-inputs.ipynb
+        - Graph Visualisation: ZeroToHero/Micrograd/notebooks/3_1-graph-visualisation.ipynb
+        - Value Object: ZeroToHero/Micrograd/notebooks/3-value-object.ipynb
+        - Manual Backpropagation-0: ZeroToHero/Micrograd/notebooks/4_0_manual_backpropagation_simpleExpression.ipynb
+        - Manual Backpropagation-1: ZeroToHero/Micrograd/notebooks/4_1_manual_backpropagation_simpleExpression.ipynb
+        - Manual Backpropagation-2: ZeroToHero/Micrograd/notebooks/4_2_manual_backpropagation_simpleExpression.ipynb
+        - Optimization Single Step Preview: ZeroToHero/Micrograd/notebooks/5_optimization_single_step_preview.ipynb
+        - Backpropagation Neuron: ZeroToHero/Micrograd/notebooks/6_0_backpropagation_neuron.ipynb
+        - Backpropagation Neuron - Manual Calculation: ZeroToHero/Micrograd/notebooks/6_1_backpropagation_neuron_manual_calculation.ipynb
+        - Backward Function - Each operation: ZeroToHero/Micrograd/notebooks/7_0_backward_func_each_operation.ipynb
+        - Backward Function - Entire Graph: ZeroToHero/Micrograd/notebooks/7_1_backward_func_entire_graph.ipynb
+        - Handing one node used multiple times: ZeroToHero/Micrograd/notebooks/8_handling_onenode_used_multiple_times.ipynb
+        - Expanding tanh into more operations: ZeroToHero/Micrograd/notebooks/9_expanding_tanh_into_more_operations.ipynb
+        - Implementing in PyTorch: ZeroToHero/Micrograd/notebooks/x10_implementing_in_pytorch.ipynb
+        - Creating a MLP: ZeroToHero/Micrograd/notebooks/x11_creating_a_multi_layer_perceptron.ipynb
+        - Creating a Loss function: ZeroToHero/Micrograd/notebooks/x12_creating_a_loss_function.ipynb
+        - Collecting all parameters in Neural Net: ZeroToHero/Micrograd/notebooks/x13_collecting_all_parameters_in_NN.ipynb
+        - Manual Gradient Descent Optimization: ZeroToHero/Micrograd/notebooks/x14_manual_gradient_descent_optimization.ipynb
+    - Language Model-1:
+      - Makemore Part 1: ZeroToHero/Makemore-part1/index.md
+      - Set A:
+        - Lecture Notes: ZeroToHero/Makemore-part1/A-main-makemore-part1.md
+        - Jupyter Notebook: ZeroToHero/Makemore-part1/A-Main-Notebook.ipynb
+      - Set B:
+        - Lecture Notes: ZeroToHero/Makemore-part1/B-main-makemore-part1.md
+        - Jupyter Notebook: ZeroToHero/Makemore-part1/B-Main-Notebook.ipynb
+      - Set C:
+        - Lecture Notes: ZeroToHero/Makemore-part1/C-main-makemore-part1.md
+        - Jupyter Notebook: ZeroToHero/Makemore-part1/C-Main-Notebook.ipynb
+    - Language Model-2:
+      - Makemore Part 2: ZeroToHero/Makemore-part2/index.md
+      - Set A:
+        - Lecture Notes: ZeroToHero/Makemore-part2/A-main-makemore-part2.md
+        - Jupyter Notebook: ZeroToHero/Makemore-part2/A-main-notebook.ipynb
+      - Set B:
+        - Lecture Notes: ZeroToHero/Makemore-part2/B-main-makemore-part2.md
+        - Jupyter Notebook: ZeroToHero/Makemore-part2/B-main-notebook.ipynb
+      - Set C:
+        - Lecture Notes: ZeroToHero/Makemore-part2/C-main-makemore-part2.md
+        - Jupyter Notebook: ZeroToHero/Makemore-part2/C-main-notebook.ipynb
+    - Language Model-3:
+      - Makemore Part 3: ZeroToHero/Makemore-part3/index.md
+      - Notes and Codes:
+        - Lecture Notes: ZeroToHero/Makemore-part3/A-main-makemore-part3.md
+        - Starter Code: ZeroToHero/Makemore-part3/executed-starter-code.ipynb
+        - Jupyter Notebook: ZeroToHero/Makemore-part3/A-main-notebook.ipynb
+        - Visualization Code: ZeroToHero/Makemore-part3/visualization-tools.ipynb
+    - Language Model-4:
+      - Makemore Part 4: ZeroToHero/Makemore-part4/index.md
+      - Notes and Codes:
+        - Exercise 1: ZeroToHero/Makemore-part4/exercise-1.ipynb
+        - Exercise 2: ZeroToHero/Makemore-part4/exercise-2.ipynb
+        - Exercise 3: ZeroToHero/Makemore-part4/exercise-3.ipynb
+        - Final code: ZeroToHero/Makemore-part4/final-code.ipynb
+    - Language Model-5:
+      - Makemore Part 5: ZeroToHero/Makemore-part5/index.md
+      - Notes and Codes:
+        - Lecture Notes: ZeroToHero/Makemore-part5/Main-makemore-part-5.md
+        - Jupyter Notebook: ZeroToHero/Makemore-part5/Main-notebook-part-5.ipynb
+    - GPT-1:
+      - Transformer Model-1: ZeroToHero/GPT-1/index.md
+      - Codes Implemented: 
+        - Notebook Implemented: ZeroToHero/GPT-1/gpt-dev.ipynb
+        - Bigram Script Breakdown: ZeroToHero/GPT-1/bigram.md
+    - GPT-2:
+      - Transformer Model-2: ZeroToHero/GPT-2/index.md
+    - GPT-Tokenizer:
+      - Tokenizer: ZeroToHero/GPT-Tokenizer/index.md
+    - General MISC:
+      - Intro to LLMs: ZeroToHero/General-MISC/intro-llms.md
+      - Deep Dive into LLMs: ZeroToHero/General-MISC/deepdive-llms.md
+      - Using LLMs: ZeroToHero/General-MISC/using-llms.md
 
 markdown_extensions:
   - toc:

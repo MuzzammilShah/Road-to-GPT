@@ -1,7 +1,7 @@
----
+<!-- ---
 hide:
   - navigation
----
+--- -->
 
 # **TRANSFORMER MODEL - GPT 1**
 

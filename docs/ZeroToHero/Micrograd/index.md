@@ -1,7 +1,7 @@
----
+<!-- ---
 hide:
   - navigation
----
+--- -->
 
 # **BACKPROPAGATION - Using an AutoGrad Engine**
 
