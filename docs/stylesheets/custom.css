@@ -10,6 +10,7 @@ body[data-md-color-scheme="default"] .md-tabs a {
 }
 body[data-md-color-scheme="default"] .md-tabs a.md-tabs__link--active {
   border-bottom: 2px solid black; /* Active tab indicator */
+  font-weight: bold;
 }
 
 /* Dark theme: Header and navbar are black */
