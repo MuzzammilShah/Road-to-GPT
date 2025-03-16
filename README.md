@@ -55,5 +55,5 @@ The learning resources are divided into two primary sections: **Set-1** and **Se
 &nbsp;
 
 <div align="center">
-<img src="docs/assets/images/main-page-logo.png" alt="Road to GPT" width="50%">
+<img src="docs/assets/images/main-page-logo-1.png" alt="Road to AI" width="50%">
 </div>
