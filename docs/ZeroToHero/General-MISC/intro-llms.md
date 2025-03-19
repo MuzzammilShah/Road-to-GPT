@@ -169,6 +169,8 @@ Now, obviously that was scary (at least it was for me). Lucky for us, defences f
 
 &nbsp;
 
+**Link to video: [Watch here](https://youtu.be/zjkBMFhNj_g?si=5JFnY67v4c0cGVw5)**
+
 So still a lot of ongoing work and is a very exiting place to be a part of :)
 *See you on the next one, Happy learning!*
 
