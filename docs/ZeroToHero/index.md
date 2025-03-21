@@ -43,8 +43,8 @@ The learning resources are divided into three primary sections: **Language Model
 
 |Topic | Lecture Link | Documentation Status |
 |------|--------|------|
-|Intro to LLMs|[Read notes](General-MISC/intro-llms.md) | :material-progress-alert: Ongoing |
-|Deep Dive to LLMs|[Read notes](General-MISC/deepdive-llms.md)| :material-progress-alert: - |
+|Intro to LLMs|[Read notes](General-MISC/intro-llms.md) | :material-progress-check: Done |
+|Deep Dive to LLMs|[Read notes](General-MISC/deepdive-llms.md)| :material-progress-alert: Ongoing |
 |Using LLMs|[Read notes](General-MISC/using-llms.md)| :material-progress-alert: - |
 
 
