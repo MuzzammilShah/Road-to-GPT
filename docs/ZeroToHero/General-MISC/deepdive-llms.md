@@ -178,6 +178,68 @@ You can watch the timestamp for this [here](https://www.youtube.com/watch?v=7xTG
     <img src="../../../assets/images/deepdive-into-llms/section-3.png" alt="Section 3 Summary">
 </div>
 
+### Supervised finetuning to reinforcement learning
+
+Everything we've seen so far are the various stages of building a LLM. Usually in large companies (like OpenAI), each of the above stage have their own respective teams doing that work. And RL is considered as the final stage of this.
+
+To get an intuition of what this is, we see the *example of a textbook* which we used to learn from in school- The theory is the Pretraining, the Solved examples are the Supervised finetuning and the problem questions which we need to solve is Reinforcement learning (The question is there, the final answer may also be provided, but its the process of getting there/how we solve it is how we learn).
+
+### Reinforcement learning
+
+"What is easy or hard for us as humans/human labelers is different than what's easy/hard for models/LLMs, as they have different conditions. The token sequences are like a whole different challenge for it".
+
+The process usually goes like:
+
+- We generated 15 solutions.
+- Only 4 of them got the right answer.
+- Take the top solution (each right and short).
+- Train on it.
+- Repeat many, many times.
+
+So RL is where we really get dialed-in. We really discover the solutions that work for the model, we find the right answers, we encourage them and the model just gets better over time.
+
+### DeepSeek-R1
+
+Okay so, it is important to know that RL is something that has emerged very recently in the industry. Step 1 & 2 have been around for a while and companies like OpenAI have been working on this internally. But it was the DeepSeek paper that had publicly put it out and had also implemented it.
+
+One of the most famous phenomenon you can say, that was introduced in this paper was the "aha moment" where the model is just rethinking by itself as it looks into the approach. So if a problem is provided, it looks into it with different perspectives, takes analogies and thinks internally in all the possible ways. And the reason this is incredible is because you cannot hardcode all of these. So this does show a huge step taken into the process of RL. Also, it is important to know that, this process consumes A LOT and I mean A LOT of tokens. So naturally you will see the response improving as more tokens is utilized.
+
+Read these snippets from the paper to have a better explanation: [Explanation](https://media.licdn.com/dms/image/v2/D5622AQG14jWhrZBfAg/feedshare-shrink_2048_1536/B56ZSESKRCHoAo-/0/1737386141926?e=1745452800&v=beta&t=-dEDMO6EDIo1Gr-B_XmLQNsx0kWObi5M4RuWIfpN9Qg) and [Example](https://media.licdn.com/dms/image/v2/D5622AQFN4nPV0Bswdw/feedshare-shrink_2048_1536/B56ZSESKRwGoAs-/0/1737386142114?e=1745452800&v=beta&t=Ba7L9FMs8Ds7q9SW2da454xe4hzKTjv2Pb2HvdHljEU).
+
+There are a few ways that you can run these state of the art models where it is already hosted for you: [Hugging Face inference playground](https://huggingface.co/spaces/huggingface/inference-playground)or [Together AI](https://api.together.ai/signin?redirectUrl=%2Fplayground%2Fv2%2Fchat).
+
+One interesting point sensei has mentioned here while comparing the OpenAI's o1 models and DeepSeek, is that OpenAI chooses not to show the entire Chain of Thought (CoT) under the fear of "distillation risk" where someone could come and just imitate the reasoning steps of the model and almost recreate its performance (in terms of its performance settings), therefore they cut it short and don't show all of it's thinking texts.
+
+### Reinforcement learning from human feedback (RLHF)
+
+RL is fairly under grasp when we are using it in a "verifiable domain" like solving a math equation where we know what the final answer is. Now, in cases of "un-verifiable domain" like telling jokes, there is no fixed answer so how do we train the model? That's where RL with Human Feedback comes in.
+
+We get humans to evaluate a good chunk of data -> Train a whole different NN on it -> Use that Model produced to evaluate the responses and gives its scores.
+
+So the RLHF approach is something like:
+
+- STEP 1: Take 1,000 prompts, get 5 rollouts, order them from best to worst (cost: 5,000 scores from humans)
+- STEP 2: Train a neural net  simulator of human preferences ("reward model")
+- STEP 3: Run RL as usual, but using the simulator instead of actual humans
+
+Lastly, it is important to note that we cannot rely on RLHF completely, we need to peak its training at one point and then just crop it. If we allow it to grow after that, then it will just a way to "game" to model it is evaluating and the final outputs rated will almost be nonsensical. 
+
+It's best covered by sensei in these points-
+
+UPSIDES:
+
+- We can run RL, in arbitrary domains! (even the unverifiable ones)
+- This (empirically) improves the performance of the model, possibly due to the "discriminator - generator gap".
+- In many cases, it is much easier to discriminate than to generate. E.g. "Write a poem" vs. "Which of these 5 poems is best?"
+
+DOWNSIDES:
+
+- We are doing RL with respect to a lossy simulation of humans. It might be misleading!
+
+- Even more subtle: RL discovers ways to "game" the model.
+
+- It discovers "adversarial examples" of the reward model. E.g. after 1,000 updates, the top joke about pelicans is not the banger you want, but something totally non-sensical like "the the the the the the the the".
+
 &nbsp;
 
 ## **SECTION IV: CONCLUSIONS**
