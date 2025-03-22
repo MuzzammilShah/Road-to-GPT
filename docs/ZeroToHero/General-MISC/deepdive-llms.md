@@ -32,8 +32,8 @@
 
 *(Fig. Demo)*
 
-- Timestamp: [31:09]([https://youtu.be/7xTGNNLPyMI?si=ZQgeJeYweA1LRgbd&t=1869](https://youtu.be/7xTGNNLPyMI?si=ZQgeJeYweA1LRgbd&t=1869)): very nice demo to see the internal processing of training the model and it inferencing the output (Will cover this in in my own GPT2 implementation as I do that [lecture]([https://docs.muhammedshah.com/ZeroToHero/GPT-2/](https://docs.muhammedshah.com/ZeroToHero/GPT-2/)) ).
-- Timestamp: [39:30]([https://youtu.be/7xTGNNLPyMI?si=0fjL40aAtt6DvOqe&t=2371](https://youtu.be/7xTGNNLPyMI?si=0fjL40aAtt6DvOqe&t=2371)) -  42:52 : Loved this part, the best visual explanation of how everything looks in a large scale and in industry standard POV.
+- Timestamp: [31:09]([https://youtu.be/7xTGNNLPyMI?si=ZQgeJeYweA1LRgbd&t=1869](https://youtu.be/7xTGNNLPyMI?si=ZQgeJeYweA1LRgbd&t=1869)) very nice demo to see the internal processing of training the model and it inferencing the output (Will cover this in in my own GPT2 implementation as I do that [lecture]([https://docs.muhammedshah.com/ZeroToHero/GPT-2/](https://docs.muhammedshah.com/ZeroToHero/GPT-2/))).
+- Timestamp: [39:30]([https://youtu.be/7xTGNNLPyMI?si=0fjL40aAtt6DvOqe&t=2371](https://youtu.be/7xTGNNLPyMI?si=0fjL40aAtt6DvOqe&t=2371)) -  42:52 Loved this part, the best visual explanation of how everything looks in a large scale and in industry standard POV.
 - [Resource]([https://lambdalabs.com/](https://lambdalabs.com/)) for renting Cloud computers with GPUs.
 
 ### Llama 3.1 base model inference
@@ -124,9 +124,51 @@ Here we come to the end of SECTION I, where we went through the 'PRETRAINING' st
 
     Or we can also add 'System Message' as we see now, so for each conversation context window, the system message is added as invisible tokens :)
 
-&nbsp;
+### Models need tokens to think
 
-!!! warning "Ongoing lecture, Not yet complete"
+- *(Fig. recall: next token probabilities)* This part is probably the next most favorite part of the lecture for me.
+
+	Here, we are given two sample response from the model and are asked to choose the better one. Naturally, what i did was to see 'HOW I WOULD SOLVE' this problem and concluded that the second option (right) was better. Reason: I broke it down the same way in my head (logic wise only).
+	
+	Turns out there is a more computational way to explain this:
+
+	- Now, look at the diagram. While thinking of a response you can image the model generating the token from left to right. And for the token which will contain the answer is where the heavy amount of computation will happen.
+	- We should also note that, in a model such as the one we see in the image, there aren't many layers for computation (the attention layers etc.). So there is just too much computation happening in the forward pass in that one token and that is not good.
+	- Therefore it is important that the model breaks down the process into various steps before concluding to the answer. This way we are not stressing all the load on one token, but taking our time to reach to the answer (therefore also spreading out the computational resources, so not much strain on the forward pass of the network)
+
+	What's even more beautiful is that we can also see this during the tokenization process in that site as well:
+
+	- Place the first response and see the token breakdown. After ` 'The' ' answer' 'is' '_' `  the token is left for the answer and it is that one token where the model is putting way too much computational load. And once that is done, the task is considered to be over and the rest of the message that you see is just something that it makes up!
+	- Similarly, if you see the token breakdown of the second response. You would see that it is "spreading out it's computation" until the final answer is reached the end only.
+	- This way we can conclude and mark that the second answer is significantly better and correct. In fact the first answer is terrible and is bad for the model, as that indicates that it hasn't been labelled properly during training (**as we end up teaching the model to do the entire computation in a single token which is really bad**). So, seeing that your model actually breaks down its task to multiple token before concluding to the final answer is actually a good sign.
+
+	Now, we don't really have to worry about this as people at OpenAI (taking ChatGPT as an example) have labelers who actually worry about these things and take special care that the right answer generation is considered. So the next time you see ChatGPT break down a math problem into multiple steps before reaching to the conclusion (even if it is a simple one), remember that the model is doing that for itself and not for you :)
+
+	We've also had cases where we specifically ask the model to calculate the answer in one go. If it is simple, it will give you the correct one. But if it is a harder one, then you would see that it fails to give the correct answer. But it will find it easier and provide the correct answer once it breaks down the process (You can see this example in the video from [1:54:03](https://youtu.be/7xTGNNLPyMI?si=pyAsuaZulVlVRCkK&t=6843)  to 1:55:50. I have also faced this in real life during work and that explains a lot haha)
+
+	Note: Turns out, even the process of allowing the model to break down the code is kind of risky as it itself is thinking of the answer (like how we do mental calculations) which is not reliable in most cases. So here, **we can instruct it to use a tool like `Use code`, so what this will do is it will use the special tokens to call a python interpreter**. So this can be more reliable as the solution is programmatically generated (there is also no additional tokens for it, the code itself is generated, passed to the interpreter and answer is generated). So don't fully trust the output when it does it using memory, use tools whenever possible.
+
+- *(Fig. Models can't count)* Another example of relying on tools while the model performs computation. Sensei uses the example of counting the dots. Now, models aren't good at counting (we've also seen that in the way it splits the tokens). But we know its good at 'copy pasting'. So when i ask it to "use code", it will correctly copy the dots given to it and provide it to the interpreter. So this way we have also broken down the task which is easier for the model to perform.
+
+Final summary for this section: So we can see how models actually need token to think (phew, this took me ages to cover lol, but so worth it).
+
+### Tokenization revisited: models struggle with spelling
+
+*(Fig. Models are not good with spelling)*
+
+1. **Models don't see characters, they see tokens.**
+2. **Models are not good at counting.**
+
+The above two points are so massively important as we've seen simple tasks where models fail to perform like "Print every 3rd character from this word" or more famously "How many r's are there in strawberry". The root cause of that is tokenization, therefore those two points.
+
+So here is where we come back to tokenization again. Incase of those example queries, the model interprets them differently as it sees them as tokens and on top of that if you ask it to count, we are basically asking it to do two of the most obvious tasks it is bad at.
+
+!!! note "Thoughts"
+    This reminds me of the famous [LLM lecture video from Stanford](https://youtu.be/9vM4p9NN0Ts?si=vbO4mu349mAtDbTA) which i watched a couple of months back (while i was still in the early stages of makemore series) where during the first half, the lecturer was asked something and he said "in those cases is where we will see that TOKENIZATION itself is the main issue". It struck me a little that time as i thought tokenization was brilliant as the model is breaking down its task. But now i see what he meant there :) -Also yes I haven't finished that lecture yet lol, i should actually.
+
+### Jagged intelligence
+
+You can watch the timestamp for this [here](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=7493s), But mainly its to show some headscratcher situations with the model. The main takeaway is this- See it as a stochastic system, you can just rely on it as a tool and not just "let it rip".
 
 &nbsp;
 
