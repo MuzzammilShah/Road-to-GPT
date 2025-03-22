@@ -1,6 +1,6 @@
 # **DEEP DIVE INTO LLMs**
 
-**Timeline: 19th March, 2025 - PRESENT**
+**Timeline: 19th - 23rd March, 2025**
 
 --------
 
@@ -248,6 +248,16 @@ DOWNSIDES:
     <img src="../../../assets/images/deepdive-into-llms/section-4.png" alt="Section 4 Summary">
 </div>
 
+### Grand summary
+
+I encourage you to just watch this part of the grand summary once you've read the notes and just want to do a quick refresh of your knowledge. Start from [here](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=12106s).
+
+Ultimately, we've learnt the 3 main stages:
+
+- **Stage 1: Knowledge Acquisition of the internet.**
+- **Stage 2: Is where the personality comes in.**
+- **Stage 3:  Perfecting thinking process and improving the problem solving.**
+
 &nbsp;
 
 ## Lecture resources
@@ -257,6 +267,6 @@ DOWNSIDES:
 - **Download full drawing board [here](https://drive.google.com/file/d/1EZh5hNDzxMMy05uLhVryk061QYQGTxiN/view)**
 - **Import and view the above drawing board on [Excalidraw](https://excalidraw.com/)**
 
-*See you on the next one, Happy learning!*
+Phew, that was one long lecture. Took me days to cover but it was truly refreshing. As he said again, very existing field to be in at a time like this. *See you on the next one, Happy learning!*
 
 &nbsp;
